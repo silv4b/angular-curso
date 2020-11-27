@@ -1,0 +1,25 @@
+.header {
+    display: flex; /* eixo da linha */
+    align-items: center; /* alinha ao centro da linha */
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(59, 117, 243);
+    font-size: 15pt;
+}
+
+.header .logo {
+    max-height: 70px;
+    margin-left: 20px;
+}
+
+.header .title-group {
+    padding-left: 25px;
+}
+
+.header .title-group i {
+    padding-right: 10px;
+}
