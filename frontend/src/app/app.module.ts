@@ -15,12 +15,15 @@ import { MatCardModule } from '@angular/material/card'
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
 
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
+import { HttpClientModule } from '@angular/common/http'
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,9 +43,14 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     MatToolbarModule,    
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule,
+    MatSnackBarModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    //services podem vir aqui
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
