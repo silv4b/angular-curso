@@ -1,34 +1,19 @@
 {
   "produtos": [
     {
-      "id": 1,
-      "nome": "Caneta BIC",
-      "preco": 5.89
+      "name": "Caneta Faber Castell",
+      "price": "12.90",
+      "id": 1
     },
     {
-      "id": 2,
-      "nome": "Caderno Vingadores",
-      "preco": 24.99
+      "name": "Notebook Ideapad 320 15IKB",
+      "price": "3200.99",
+      "id": 2
     },
     {
-      "id": 3,
-      "nome": "Caderno Barbie",
-      "preco": 22.99
-    },
-    {
-      "id": 4,
-      "nome": "Kit Stabilo",
-      "preco": "50.00"
-    },
-    {
-      "id": 5,
-      "nome": "Kit Faber Castell",
-      "preco": "55.99"
-    },
-    {
-      "id": 6,
-      "nome": "Caneta Mágica",
-      "preco": "14.99"
+      "name": "Monitor DELL 23'",
+      "price": "999.99",
+      "id": 3
     }
   ]
 }
