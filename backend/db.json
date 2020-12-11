@@ -14,6 +14,11 @@
       "name": "Monitor DELL 23'",
       "price": "999.99",
       "id": 3
+    },
+    {
+      "name": "Teclado Royal Kludge",
+      "price": "340.99",
+      "id": 4
     }
   ]
 }
